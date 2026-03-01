@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
     libdecor   \
     physfs     \
     python     \
+    scons      \
     sdl2       \
     sdl2_image \
     sdl2_mixer
