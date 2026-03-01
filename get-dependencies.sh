@@ -35,7 +35,7 @@ cd ./dxx-rebirth
 wget https://www.dxx-rebirth.com/d1x-rebirth_addons.zip
 bsdtar -xvf d1x-rebirth_addons.zip
 
-local -a _common_opts=(
+declare -a _common_opts=(
         "${MAKEFLAGS:-}"
         '-Cdxx-rebirth'
         'builddir=./build'
