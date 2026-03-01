@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/dxx-rebirth/dxx-rebirth/refs/heads/master/contrib/packaging/linux/descent.svg
 export DESKTOP=/usr/share/applications/d1x-rebirth.desktop
+export STARTUPWMCLASS=
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
