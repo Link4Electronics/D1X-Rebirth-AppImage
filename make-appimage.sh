@@ -12,7 +12,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/d1x-rebirth
+quick-sharun ./AppDir/bin/d1x-rebirth /usr/lib/libfluidsynth.so*
 
 # Additional changes can be done in between here
 
