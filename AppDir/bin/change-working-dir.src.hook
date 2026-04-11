@@ -1,4 +1,4 @@
-#!/bin/false
+#!/bin/sh
 dir=$HOME/.d1x-rebirth
 if [ ! -f "$dir"/d1xr-hires.dxa ]; then
   mkdir -p "$dir"
